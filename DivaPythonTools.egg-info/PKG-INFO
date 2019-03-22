@@ -1,10 +1,10 @@
 Metadata-Version: 1.0
 Name: DivaPythonTools
-Version: 0.1.0
+Version: 0.1.1
 Summary: A set of Python tools to help users with: 1. The preparation of Diva input files: data, contours, parameters; 2. The execution of the Diva interpolation tool; 3. The reading of output files (analysis, finite-element mesh); 4. The input and output plotting.
 Home-page: https://github.com/gher-ulg/DivaPythonTools
 Author: Charles Troupin
-Author-email: UNKNOWN
+Author-email: charles.troupin@gmail.com
 License: The MIT License (MIT)
 
 Copyright (c) 2013 PyPAM
@@ -27,7 +27,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-Description-Content-Type: UNKNOWN
 Description: [![DOI](https://zenodo.org/badge/44103456.svg)](https://zenodo.org/badge/latestdoi/44103456)
         
         # Diva Python Tools
@@ -51,6 +50,17 @@ Description: [![DOI](https://zenodo.org/badge/44103456.svg)](https://zenodo.org/
         git clone git@github.com:gher-ulg/DivaPythonTools.git
         ```
         or download the latest stable [release](https://github.com/gher-ulg/DivaPythonTools/releases).
+        
+        Inside DivaPythonTools directory execute:
+        ```python
+        pip install -r requirements.txt
+        python setup.py install
+        ```
+        
+        After this you should use it as:
+        ```python
+        from pydiva import pydiva2d, pydiva4d
+        ```
         
         ## Module description
         
